@@ -22,20 +22,21 @@ console.log(typeof score2); // null will show oject because null is object
 console.log(typeof score3);
 console.log(typeof true);  // true & false
 
- //let isloggedIn = 0  //  out put(1- true , 0-false)
-/*
+ let isloggedIn = " wolf"  //  out put(1- true , 0-false)
+
 let booleanIsloggedIn = Boolean(isloggedIn)
 console.log(booleanIsloggedIn);
 
 
-let isloggedIn1= ""// false out will come
-let booleanIsloggedIn1= Boolean(isloggedIn1)
-console.log(booleanIsloggedIn1); */
+/* 1= true ,0=false 
+false= ""// false out will come
+ true = " wolf magic begin now"
+ */ 
 
-
-let isloggedIn = ""
-let booleanIsloggedIn = Boolean(isloggedIn)
-console.log(booleanIsloggedIn); 
+let someNumber = 518491617
+let stringNumber = String(someNumber)
+console.log(stringNumber); //print
+console.log(typeof stringNumber); // find type of string or no
 
 
 
