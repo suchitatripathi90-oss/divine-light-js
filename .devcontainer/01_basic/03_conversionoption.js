@@ -1,7 +1,47 @@
-let score = 44
-const {score} = req.body
 
- 
+let score = 44
+let score1 = "divine light 518 491 617"   // consider as string
+let score2 =null // object
+let score3 =undefined
+let score4 = true
+let score5 = false
+
+console.log(typeof score); // regular
+console.log(typeof(score)) ;// define as fubction 
+
+
+let valueInNumber = Number(score)
+console.log(typeof score);
+
+
+let valueInNumberS= Number(score1) // as string and telling no thats why showing Nan
+console.log(typeof score1);
+console.log(valueInNumberS); // NaN (no and string both here)"
+
+console.log(typeof score2); // null will show oject because null is object
+console.log(typeof score3);
+console.log(typeof true);  // true & false
+
+ //let isloggedIn = 0  //  out put(1- true , 0-false)
+/*
+let booleanIsloggedIn = Boolean(isloggedIn)
+console.log(booleanIsloggedIn);
+
+
+let isloggedIn1= ""// false out will come
+let booleanIsloggedIn1= Boolean(isloggedIn1)
+console.log(booleanIsloggedIn1); */
+
+
+let isloggedIn = ""
+let booleanIsloggedIn = Boolean(isloggedIn)
+console.log(booleanIsloggedIn); 
+
+
+
+
+
+
 
 
 
