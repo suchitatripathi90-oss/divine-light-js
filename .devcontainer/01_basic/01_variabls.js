@@ -1,5 +1,7 @@
 const accountId =123456
 let accountEmail = "suchitatripathi90@gmail.com"
-var accountpassword = "123456"
+var accountPassword = "123456"
 accountCity = "mumbai"
-console.log(accountId);
+let accountState;  //in output will get undefine value because a/cstate is not define//
+//console.log(accountId);// single line print
+console.table([accountEmail, accountPassword, accountCity, accountState]);
