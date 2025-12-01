@@ -7,7 +7,7 @@ symbol (unique repration ) , bigInt (for big value- 518491617)
 const Id = Symbol('518491617')
 const NewId = Symbol('518491617')
 console.log(Id == NewId)
-const bigNumber = (typeof 519491617519491617519491617n) 
+//const bigNumber = (typeof 519491617519491617519491617n) 
 const bigNumber = 519491617519491617519491617n
 console.log(bigNumber);
 
@@ -15,17 +15,24 @@ console.log(bigNumber);
 //  Reference  ( non primitive  )
 
 /*  allocate memory in  reference 
-Array [] , Objects {} , Function    
+Array []-object , Objects {} -object , Function- " function object "
+ or object, run code check
 
 */
  
  const  heros  = [ "mummy", "papa", " myself"] ;
+
  let myobeject = {
         name : "Suchita",
         age : 36,
         gender : false,
 }
-const nyFunction = function(){
+const myFunction = function(){
     console.log("divine light");
 }
-console.log();
+
+console.log(typeof myFunction); // in nonprimited -function retun called "fucntion object"
+console.log( typeof myobeject);//in nonprimited - retun  datatype called " object" of object
+console.log( typeof heros);// in nonprimited - retun  datatype called " object" of array
+
+
