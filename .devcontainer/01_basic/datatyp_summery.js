@@ -35,4 +35,27 @@ console.log(typeof myFunction); // in nonprimited -function retun called "fucnti
 console.log( typeof myobeject);//in nonprimited - retun  datatype called " object" of object
 console.log( typeof heros);// in nonprimited - retun  datatype called " object" of array
 
+ // Memory "new topic"
+ // stack (primitive) -we get copy of declear value
+ //heap (non-premitive) - we get reference of declear value
 
+ let myYoutubename = "divinelight"
+ let anothername = myYoutubename
+ anothername = "bubble"
+ console.log(myYoutubename);
+console.log(anothername);
+
+let user = { 
+    email: "divinelight@gmail.com" ,
+    upi: "dubble@upi"
+}
+let usertwo = user
+usertwo.email =  "divine@gmail.com"
+
+console.log(user.email);
+console.log(usertwo.email);
+
+
+
+
+ 
