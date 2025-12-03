@@ -10,5 +10,16 @@ console.log(creatnewdate.toDateString()); // Wed Nov 09 1988
 
 let newdate =new Date(1988 ,10,09,4 ,5)
 console.log(newdate.toLocaleString());  // 11/9/1988, 4:05:00 AM
+console.log(newdate.getMonth());
+console.log(newdate.getDay());
+console.log(newdate.toLocaleDateString());
+
+// newdate.toLocaleString('default',{
+//     weekday : "long" ,
+//     dateStyle : "long",
+//     });
+
+
+
 
 
